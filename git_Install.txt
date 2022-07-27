@@ -1,0 +1,8 @@
+// to update Linux OS
+yum update
+yum update -y
+// to update ubuntu
+apt update -y
+
+// to install git
+yum install git

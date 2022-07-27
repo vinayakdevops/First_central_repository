@@ -1,0 +1,19 @@
+[ec2-user@ip-172-31-95-179 /]$ hostname
+ip-172-31-95-179.ec2.internal
+[ec2-user@ip-172-31-95-179 /]$ hostnamectl
+   Static hostname: ip-172-31-95-179.ec2.internal
+         Icon name: computer-vm
+           Chassis: vm
+        Machine ID: 9ba8eb218632439084d4036864520b54
+           Boot ID: 3b979832c74243e9a52d44b8406b501a
+    Virtualization: xen
+  Operating System: Red Hat Enterprise Linux 8.6 (Ootpa)
+       CPE OS Name: cpe:/o:redhat:enterprise_linux:8::baseos
+            Kernel: Linux 4.18.0-372.9.1.el8.x86_64
+      Architecture: x86-64
+[ec2-user@ip-172-31-95-179 /]$
+[ec2-user@ip-172-31-95-179 /]$
+[ec2-user@ip-172-31-95-179 /]$ sudo hostnamectl set-hostname git
+[ec2-user@ip-172-31-95-179 /]$ hostname
+git
+
